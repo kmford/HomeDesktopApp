@@ -11,6 +11,10 @@ namespace FordHome
         private Thread updateDataThread;
         private static bool m_continue;
 
+        // darksky api key
+        // 68d9378644b9e4c410a00a6280be6976
+
+//        https://api.darksky.net/forecast/68d9378644b9e4c410a00a6280be6976/42.0897,-75.9291
         public void UpdateTempText(string temp)
         {
             if (outdoorTempTextBox.InvokeRequired)
